@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "g2stock",
+          "configurations": {
+            "macos": "1:980482086441:ios:af0f33d4b35ce2c8502e38",
+            "web": "1:980482086441:web:32abefe7dd3826f9502e38",
+            "windows": "1:980482086441:web:0d962d6f70d27d6d502e38"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
