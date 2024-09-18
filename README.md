@@ -1,6 +1,6 @@
 # g2s
 
-A new Flutter project.
+Logiciel de gestion de stock Desktop, tablette et Web.
 
 ## Getting Started
 
